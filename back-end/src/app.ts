@@ -9,6 +9,4 @@ app.use(cors({ origin: "*" }));
 app.use(express.json());
 app.use(helmet());
 
-//Chamar as rotas do index.ts
-
 export default app;
